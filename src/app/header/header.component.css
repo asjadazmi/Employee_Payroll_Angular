@@ -1,0 +1,19 @@
+
+.header{
+    padding: 15px 0;
+    background-color: whitesmoke;
+}
+
+.header-content{
+    display: flex;
+    flex-direction: row;
+    margin-left:10%;
+    margin-right: 10%;
+}
+.emp-text{
+    font: normal normal;
+    color: green;
+}
+.emp-payroll{
+    color: black;
+}

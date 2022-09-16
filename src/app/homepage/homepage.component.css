@@ -1,0 +1,56 @@
+.add-button{
+    font: normal normal 22px/29px Robot;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 18px;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh-80px);
+    background-color: white;
+    padding: 30px 0 20px;
+    box-sizing: border-box;
+}
+.header-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 25px;
+}
+.emp-detail-text{
+    font: normal normal bold 25px/15px Robot;
+    letter-spacing: 0px;
+    color: #42515f;
+    opacity: 1;
+}
+.em-count{
+    background-color: green;
+    color: white;
+    border-radius: 42px;
+    font-size: 16px;
+    width: 26px;
+    text-align: center;
+    display: inline-block;
+}
+.table{
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 15px;
+    min-width: 800px;
+}
+td,th{
+    text-align: left;
+    padding: 5px 8px;
+    
+}
